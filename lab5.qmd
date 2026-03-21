@@ -1,0 +1,60 @@
+---
+title: "Отчет по лабораторной работе № 4"
+subtitle: "Основы интерфейса взаимодействия пользователя с системой Unix на уровне командной строки"
+author: "Студент: *(ФИО студента)*"
+date: "2026"
+format:
+  pdf:
+    documentclass: article
+    papersize: a4
+    geometry:
+      - top=25mm
+      - bottom=25mm
+      - left=25mm
+      - right=15mm
+    fontsize: 12pt
+    lang: ru
+    highlight-style: tango
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    colorlinks: true
+    linkcolor: blue
+    urlcolor: blue
+    citecolor: blue
+    margin-in-header: |
+      \usepackage{cmap}
+      \usepackage[T2A]{fontenc}
+      \usepackage[utf8]{inputenc}
+      \usepackage[russian]{babel}
+    include-in-header:
+      text: |
+        \usepackage{multirow}
+        \usepackage{graphicx}
+        \usepackage{longtable}
+        \usepackage{array}
+        \usepackage{booktabs}
+    mainfont: "Liberation Serif"
+    sansfont: "Liberation Sans"
+    monofont: "Liberation Mono"
+    monofontoptions: "Scale=0.8"
+    links-as-notes: true
+    keep-tex: true
+editor: visual
+---
+
+# Цель работы
+
+Приобретение практических навыков взаимодействия пользователя с системой посредством командной строки в операционной системе типа Linux.
+
+# Описание результатов выполнения задания
+
+В ходе выполнения лабораторной работы были последовательно выполнены следующие действия, зафиксированные на скриншотах.
+
+## Определение полного имени домашнего каталога
+
+**Действие:** Выполнение команды `pwd` в домашнем каталоге.
+
+```bash
+$ pwd
+/afs/dk.sci.pfu.edu.ru/home/d/h/dharma
